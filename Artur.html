@@ -1,39 +1,65 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="Style.css">
-    <title>Artur Rodrigues Da Silva Xavier</title>
-</head>
-<body>
-    <h class="titulo">Artur Rodrigues Da Silva Xavier</h>
-    <img src="Artur.jpg" class="foto">
-    <div class="minibio">
-        <p>Tenho 17 anos, e atualmente estou fazendo um curso de Técnico em Informática, no Instituto Federal de Mato Grosso, e faço parte da turma 3C.
-       Sou natural de Cuiabá - Mato Grosso, e vivi praticamente aqui minha vida inteira. 
-       Gosto muito de futebol e futsal, e assisto bastante séries, normalmente documentários históricos e sobre a natureza. 
-      Sou um cara legal e vou ganhar dinheiro fazendo nada.
-      A vida é um fio invisível tecido no tempo,
-	um sopro leve entre o agora e o eterno,
-	onde cada passo carrega o peso dos sonhos
-	e cada silêncio guarda segredos do universo.
+/* Zera as margens padrão do navegador e define o box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-	É chama que dança no escuro da incerteza,
-	ora brisa suave, ora tempestade sem aviso,
-	um caminho que se revela aos poucos
-	para quem ousa caminhar mesmo perdido.
+/* Estilo geral do corpo da página (Fundo escuro e fonte limpa) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
 
-	Há beleza nas quedas e nos recomeços,
-	nas lágrimas que regam a alma cansada,
-	pois viver é mais do que existir no mundo —
-	é transformar cada dor em estrada.
+/* Estilo do Título */
+.titulo {
+    font-size: 2.5rem;
+    color: #2e7d32; /* Verde IFMT/Futebol */
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
-	E no fim, quando tudo se desfaz em memória,
-	resta apenas o que o coração cultivou:
-	os instantes vividos com verdade e coragem,
-	e o amor que, silencioso, nunca terminou.							
-        </p>
-    </div>
-</body>
-</html>
+/* Estilo da Foto de Perfil */
+.foto {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    object-fit: cover; /* Garante que a imagem não fique esticada */
+    border: 5px solid #2e7d32;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de zoom ao passar o mouse na foto */
+.foto:hover {
+    transform: scale(1.05);
+}
+
+/* Caixa onde fica a biografia e o poema */
+.minibio {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 700px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border-top: 4px solid #2e7d32;
+}
+
+/* Estilo do texto dentro da caixa */
+.minibio p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #cccccc;
+    text-align: justify;
+    
+    /* ESSENCIAL: O 'pre-line' faz com que o HTML respeite as quebras de linha que você deu no poema, sem precisar colocar <br> em tudo */
+    white-space: pre-line; 
+}
