@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renan Gabriel</title>
+</head>
+<body>
+    <h class="titulo">Renan Gabriel Arruda da Silva</h>
+    <img src="renan.png" class="foto">
+    <div class="minibio">
+        <p>Oi! Meu nome é Renan. Gosto de esportes, videogame e anime. Meus jogos favoritos é Celeste, Cuphead e Hollow Knight.</p>
+    </div>
+</body>
+</html>
