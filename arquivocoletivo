@@ -13,3 +13,4 @@
     <hr> <!-- Eliseu -->
     <form action="#" method="post"> <!-- João -->
         <label>Nome Completo:</label><br> <!-- Renan -->
+        <input type="text" name="nome" required><br><br> <!-- Rubem -->
