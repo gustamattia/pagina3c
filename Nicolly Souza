@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolly Souza e Silva</title>
+</head>
+<body>
+    <h class="titulo">Nicolly Souza e Silva</h>
+    <img src=""C:\Users\Aluno\Downloads\nicolly.jpeg.jpeg"" class="foto">
+    <div class="minibio">
+        <p>Oi!Meu nome é Nicolly Souza, tenho 17 anos, sou estudante do Instituto Federal de Mato Grosso 
+        . Gosto de moda, redes sociais e fotografia. </p>
+    </div>
+</body>
+</html>
