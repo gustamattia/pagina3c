@@ -6,8 +6,9 @@
 
 </head> <!-- Júlia Liz -->
 <body> <!-- Alexandre -->
-<style>body { font-family: sans-serif; line-height: 1.4; padding: 20px; }</style> <!--Luan-->
-<h2>IFMT - Campus Cuiabá (Octayde Jorge da Silva)</h2> <!-- Laís -->
+    <header> <!-- Fernanda -->
+        <style>body { font-family: sans-serif; line-height: 1.4; padding: 20px; }</style> <!--Luan-->
+        <h2>IFMT - Campus Cuiabá (Octayde Jorge da Silva)</h2> <!-- Laís -->
 
 
     <hr> <!-- Eliseu -->
