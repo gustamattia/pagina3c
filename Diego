@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Neves</title>
+</head>
+<body>
+    <h class="titulo">Diego Dezangiacomo Alencar Neves</h>
+    <img src="C:\Users\Aluno\Downloads\diego.jpeg"
+    <div class="minibio">
+        <p>Oi! Meu nome é Diego Neves. Estudo no Instituto Federal de Mato Grosso, Gosto de música e sair com os amigos.</p>
+    </div>
+</body>
+</html>
