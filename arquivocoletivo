@@ -18,7 +18,7 @@
 
 
 <input type="email" name="email"><br><br> <!-- sophia lorena -->
-
+<label>Data de Nascimento:</label><br> <!--Gabrielly -->
 < input  type = " date " name = " data_nasc " > <br> <br> <!--Artur (͠≖ ͜ʖ͠≖)👌-->
 <button type="submit">Enviar Cadastro</button> <!-- Fabricio-->
 </form> <!-- José -->
