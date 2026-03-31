@@ -20,7 +20,7 @@
 
 
 
-
-
+<button type="submit">Enviar Cadastro</button> <!-- Fabricio -->
+</form> <!-- José -->
 </body>
 </html>
