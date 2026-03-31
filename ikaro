@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikaro dos Santos Almeida de Vasconcellos Dias</title>
+</head>
+<body>
+    <h class="titulo">Ikaro dos Santos Almeida de Vasconcellos Dias</h>
+    <img src="fotos/ikaro.jpg" class="foto">
+    <div class="minibio">
+        <p>Ikaro, 17. PRO no volleyball legends desde a season 7. Meu ônibus favorito é o 607. Empíreo do Deus Gamer desde 08/12/2008. </p>
+    </div>
+</body>
+</html>
