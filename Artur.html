@@ -1,11 +1,11 @@
-/* Zera as margens padrão do navegador e define o box-sizing */
-* {
+
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo geral do corpo da página (Fundo escuro e fonte limpa) */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #121212;
@@ -16,7 +16,7 @@ body {
     padding: 50px 20px;
 }
 
-/* Estilo do Título */
+
 .titulo {
     font-size: 2.5rem;
     color: #2e7d32; /* Verde IFMT/Futebol */
@@ -26,7 +26,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* Estilo da Foto de Perfil */
+
 .foto {
     width: 220px;
     height: 220px;
@@ -38,12 +38,12 @@ body {
     transition: transform 0.3s ease;
 }
 
-/* Efeito de zoom ao passar o mouse na foto */
+
 .foto:hover {
     transform: scale(1.05);
 }
 
-/* Caixa onde fica a biografia e o poema */
+
 .minibio {
     background-color: #1e1e1e;
     padding: 40px;
@@ -53,13 +53,13 @@ body {
     border-top: 4px solid #2e7d32;
 }
 
-/* Estilo do texto dentro da caixa */
+
 .minibio p {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #cccccc;
     text-align: justify;
     
-    /* ESSENCIAL: O 'pre-line' faz com que o HTML respeite as quebras de linha que você deu no poema, sem precisar colocar <br> em tudo */
+  
     white-space: pre-line; 
 }
